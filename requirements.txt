@@ -1,0 +1,6 @@
+fastapi
+pydantic
+python-jose
+pandas
+numpy
+scikit-learn
