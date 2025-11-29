@@ -4,3 +4,4 @@ python-jose
 pandas
 numpy
 scikit-learn
+redis
