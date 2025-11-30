@@ -1,7 +1,7 @@
 from fastapi import middleware
 from pydantic import BaseModel
 import logging
-from starlette.middleware import BaseHTTPMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
 
 
 class LoggingMiddleware(BaseHTTPMiddleware):

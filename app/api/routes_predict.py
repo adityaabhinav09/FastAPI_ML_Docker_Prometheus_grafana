@@ -9,6 +9,7 @@ router = APIRouter()
 class car_features(BaseModel):
     company: str
     year: int
+    owner: str
     fuel: str
     seller_type: str
     transmission: str
