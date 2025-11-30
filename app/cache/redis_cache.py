@@ -1,4 +1,4 @@
-import json
+import os
 import redis
 # from app.core.config import settings
 from dotenv import load_dotenv
